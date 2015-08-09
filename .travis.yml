@@ -10,5 +10,4 @@ deploy:
     secure: c90yHVClyES7k5i4I6qgwmR6bZXJH7d4f/6g1YkSn6gAbE5zYafnBD1+ugTG5EUCCDdEji7otNnri/R6wKYhoDSLq0WoOGrbVIu3VdvYzXAH03rB4vcC/ksdxKh3zvsgwPDjiffmgcsmcYzj7CMYzrFMzJeDFdYSIZ4zSZXEk2k=
   app: ruby
   domain: l33tname
-  on:
-    repo: fliiiix/serious-bg
+  on: openshift
