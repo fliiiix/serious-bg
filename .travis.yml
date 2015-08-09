@@ -3,10 +3,11 @@ cache: bundler
 rvm:
   - 2.2.2
 deploy:
-  provider: heroku
-  api_key:
-    secure: SbzwtKTwExNV++qLPxq3rOaEF+ijvS9WYJdHWsWvzq9av/wtMae+f47g00p2RdcSTRyneUmejCEccA/pDnJFwagBDhQvO3kke44S/eEqlRElqD8KYfVDMXxMJC18IksQdiq/KxMEte7mS+BqkRcDia+CAuY6do1wLYqFB5Nzy5k=
-  app: binaergewitter
+  provider: openshift
+  user: l33tname@outlook.com
+  password:
+    secure: c90yHVClyES7k5i4I6qgwmR6bZXJH7d4f/6g1YkSn6gAbE5zYafnBD1+ugTG5EUCCDdEji7otNnri/R6wKYhoDSLq0WoOGrbVIu3VdvYzXAH03rB4vcC/ksdxKh3zvsgwPDjiffmgcsmcYzj7CMYzrFMzJeDFdYSIZ4zSZXEk2k=
+  app: ruby
+  domain: l33tname
   on:
-    repo: Binaergewitter/serious-bg
-    rvm: 2.2.2
+    repo: fliiiix/serious-bg
